@@ -117,7 +117,7 @@ describe('ReqRes API', () => {
     }
   });
 
-  test('GET to /colors/id should return status 200 and the color data', async () => {
+  test('GET to /colors/id for an existing color should return status 200 and the color data', async () => {
     // Act
     const response: AxiosResponse<Types.SingleColor> = await axios({
       url: '/colors/2',
