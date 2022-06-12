@@ -9,7 +9,7 @@ The API chosen for testing was ReqRes. It simulates how a real application behav
 ## How it works
 
 The project uses Jest as the test framework, Axios as the HTTP client to perform API requests, and jest-html-reporters to generate HTML reports.  
-A workflow is set up to install Node.js, install the required packages, run the tests, and publish the HTML report to GitHub Pages. The report can be viewed [here](https://kafziel4.github.io/jest/).
+A workflow is set up to install Node.js, install the required packages, run the tests, and publish the HTML report to GitHub Pages. The report can be viewed [here](https://kafziel4.github.io/jest-api-tests/).
 
 ![report](./assets/report.PNG)
 
