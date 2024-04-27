@@ -45,6 +45,7 @@ describe('ReqRes API Users endpoints', () => {
         avatar: 'https://reqres.in/img/faces/2-image.jpg',
       },
     };
+
     // Act
     const response = await reqResClient.getSingleUser(expectedResponse.data.id);
 
